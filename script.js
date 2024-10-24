@@ -9,7 +9,7 @@ function addMessage(message, isBot = false) {
 
     const profilePic = document.createElement('img');
     profilePic.classList.add('pfp');
-    profilePic.src = isBot ? '/meow/assets/ai-cat.jpg' : '/meow/assets/ai-sherk.jpg'; 
+    profilePic.src = isBot ? '/pookie-ai//assets/ai-cat.jpg' : '/pookie-ai//assets/ai-sherk.jpg'; 
 
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', isBot ? 'bot-message' : 'user-message');
